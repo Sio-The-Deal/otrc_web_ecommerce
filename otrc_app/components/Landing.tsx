@@ -8,10 +8,11 @@ function Landing() {
       <div className="space-y-8">
         <h1 className="space-y-3 text-5xl font-semibold tracking-wide lg:text-6xl xl:text-7xl">
           <span className="block bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent">
-            Off The Road Collectives
+            Off The Road Collective
           </span>
-          <span className="block text-5xl">Hot Trending</span>
-          <span className="block text-5xl">Eco Chic Fashion</span>
+          <br></br>
+          <span className="block text-4xl">Hot Trending</span>
+          <span className="block text-2xl">Eco Chic Fashion</span>
         </h1>
 
         <div className="space-x-8">
@@ -25,7 +26,7 @@ function Landing() {
       </div>
 
       <div className="relative hidden h-[450px] w-[450px] transition-all duration-500 md:inline lg:h-[650px] lg:w-[600px]">
-        <Image src="/image_png_prod.png" layout="fill" objectFit="contain" alt={'land_image'}/>
+        <Image src="/otrc_logo_arrow1.png" layout="fill" objectFit="contain" alt={'land_image'}/>
       </div>
     </section>
   );

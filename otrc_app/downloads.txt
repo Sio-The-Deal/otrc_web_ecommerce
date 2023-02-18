@@ -1,0 +1,4 @@
+npm install @headlessui/react@latest
+
+notes: backend api route ( server-side rendering ) [Tab.Group]-- mapping the products --fetching categories from sanity.io since they are stored in there
+server side rendering is a backend code that prefetches the page before reaching to the client [getServerSideProps]. The page is stored on the server and so client do not need to wait for loading, this is only supported on next js and server side rendering is not react.
